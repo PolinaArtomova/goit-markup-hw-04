@@ -410,6 +410,10 @@ img {
     gap: 16px;
 }
 
+.social-icon-list-link.footer:hover {
+    background-color: #31d0aa;
+}
+
 .social-title {
     font-weight: 500;
     font-size: 16px;
