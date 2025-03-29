@@ -387,6 +387,7 @@ img {
 
 .page-footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-dsc {
@@ -406,9 +407,9 @@ img {
     margin-right: 120px;
 }
 
-.social-footer {
+/*.social-footer {
     align-items: baseline
-}
+}*/
 
 .footer-social-icon-list {
     margin-top: 16px;
@@ -416,7 +417,8 @@ img {
     gap: 16px;
 }
 
-.social-icon-list-link.footer:hover {
+.social-icon-list-link.footer:hover,
+.social-icon-list-link.footer:focus {
     background-color: #31d0aa;
 }
 
